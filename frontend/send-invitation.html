@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Invitation - Event Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Send Invitation</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">View Events</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Send an Invitation</h2>
+      <form id="invitation-form">
+        <input type="text" id="event-id" placeholder="Event ID" required />
+        <input
+          type="email"
+          id="invitee-email"
+          placeholder="Invitee Email"
+          required
+        />
+        <button type="submit">Send Invitation</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Event Management</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

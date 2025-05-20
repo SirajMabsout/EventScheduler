@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Event - Event Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Edit Event</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">View Events</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Edit Event</h2>
+      <form id="edit-event-form">
+        <input
+          type="number"
+          id="edit-event-id"
+          placeholder="Event ID"
+          required
+        />
+        <input
+          type="text"
+          id="edit-event-title"
+          placeholder="Event Title"
+          required
+        />
+        <input type="datetime-local" id="edit-event-date-time" required />
+        <input
+          type="text"
+          id="edit-event-location"
+          placeholder="Event Location"
+          required
+        />
+        <textarea
+          id="edit-event-description"
+          placeholder="Event Description"
+          required
+        ></textarea>
+        <button type="submit">Update Event</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Event Management</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
